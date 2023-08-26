@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  max-width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+body {
+
+  background-color: rgb(206, 201, 201);
+}
+
+.bg_black {
+  background-color: black;
+  color: white;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.second_section {
+  width: 100%;
+
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.left_panel {
+  width: 700px;
+}
+
+.left_card1 {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(138, 136, 136);
+  border: 0.5px solid lightgray;
+}
+
+.right_panel .card-2 {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(138, 136, 136);
+  border: 0.5px solid lightgray;
+}
+.right_card1 {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(138, 136, 136);
+  border: 0.5px solid lightgray;
+
+}
+.tags{
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(138, 136, 136);
+  border: 0.5px solid lightgray;
+}
+
+.left_card1_subhead {
+  padding: 20px 0;
+}
+
+.left_card_bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_card_btn {
+  padding: 10px 20px;
+  background-color: white;
+  border: 0.5px solid lightgray;
+  cursor: pointer;
+}
+
+.card_content {
+  padding: 10px 20px;
+}
+
+.left_card2 {
+  box-shadow: 5px 5px 5px rgb(138, 136, 136);
+  background-color: white;
+  margin-top: 20px;
+  border: 0.5px solid lightgray;
+}
+
+.right_panel {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.right_card1 {
+  background-color: white;
+  max-width: 100%;
+  border: 0.5px solid lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.right_card_header {
+  padding: 18px;
+  background-color: lightgray;
+  max-width: 100%;
+  color: black;
+}
+
+.right_card_header_text {
+  font-size: 20px;
+}
+
+.right_card1_content {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.right_card1_content:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.right_card1_content_img {
+  width: 50px;
+  height: 50px;
+}
+
+.right_card1_content_text {
+  margin-left: 10px;
+
+}
+
+.right_panel .card-2 {
+  padding-bottom: 20px;
+  background-color: white;
+
+  border: 1px solid lightgray;
+}
+
+.card-2 .card-2-image img {
+  width: 100%;
+
+}
+
+.right_panel .tags {
+  background-color: white;
+
+  border: 1px solid lightgray;
+
+}
+
+.tags h6 {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 15px;
+  height: 30px;
+  background-color: rgb(233, 230, 230);
+}
+
+.tags .tags-names {
+  padding: 10px 10px;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.tags-names .tag-travel {
+  background-color: black;
+  color: white;
+}
+
+.tags span {
+  
+  justify-content: space-between;
+  background-color: rgb(226, 221, 221);
+  gap: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: rgb(89, 94, 94);
+  width: 103%;
+  padding-bottom: 0px;
+  height: 200px;
+  color: white;
+
+}
+
+.footer .buttons {
+  display: flex;
+  padding: 10px 10px;
+  gap: 10px;
+}
+
+.button-1 button {
+  background-color: grey;
+  padding: 10px 15px;
+}
+
+.button-2 button {
+  padding: 10px 14px;
+  background-color: black;
+  color: white;
+}
+
+.button-2 button:hover {
+
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.button-1 button:hover {
+  background-color: rgb(184, 181, 181);
+  color: grey;
+  cursor: pointer;
+}
+
+.footer-link {
+  padding-left: 10px;
+  padding-top: 30px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .second_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right_panel {
+    padding-top: 20px;
+  }
+
+  .left_card1 .left_card2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+
+
+  .second_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right_panel {
+    padding-top: 20px;
+  }
+
+  .left_card1 .left_card2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    margin-top: 15px;
+  }
+}
